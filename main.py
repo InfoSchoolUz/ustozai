@@ -58,4 +58,7 @@ def get_ai_response(prompt):
 
 print("Bot ishga tushdi...")
 bot.remove_webhook()
-bot.infinity_polling(threaded=False)
+bot.infinity_polling()
+print("Bot ishga tushdi...")
+bot.remove_webhook()
+bot.infinity_polling()
