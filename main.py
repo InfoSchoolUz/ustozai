@@ -61,5 +61,6 @@ print("Bot ishga tushdi...")
 bot.remove_webhook()
 bot.infinity_polling()
 print("Bot ishga tushdi...")
+time.sleep(2)  # 2 soniya kutadi
 bot.remove_webhook()
 bot.infinity_polling()
